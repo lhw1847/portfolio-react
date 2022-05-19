@@ -1,0 +1,32 @@
+html.has-scroll-smooth {
+    overflow: hidden;
+}
+
+html.has-scroll-dragging {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.has-scroll-smooth body {
+    overflow: hidden;
+}
+html,
+body {
+    height: 100%;
+    font-family: "GmarketSans";
+}
+
+body {
+    height: 100%;
+    overflow-y: scroll;
+    padding: 0;
+    margin: 0;
+    background-color: #111;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #fff;
+}
